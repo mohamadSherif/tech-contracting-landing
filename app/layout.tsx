@@ -9,9 +9,13 @@ const spaceGrotesk = Space_Grotesk({
 })
 
 export const metadata: Metadata = {
-  title: "531 Tech Contracting",
-  description: "Futuristic tech contracting solutions",
-    generator: 'v0.dev'
+  title: "Dev @ 531",
+  description: "Dev @ 531",
+  icons: {
+    icon: '/favicon.ico',
+    shortcut: '/favicon.ico',
+    apple: '/favicon.ico',
+  },
 }
 
 export default function RootLayout({

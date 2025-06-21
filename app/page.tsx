@@ -114,9 +114,7 @@ export default function LandingPage() {
           className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce cursor-pointer group"
           onClick={scrollToNextSection}
         >
-          <div className="w-6 h-10 border-2 border-white/30 group-hover:border-white/60 flex justify-center transition-colors duration-300">
-            <div className="w-1 h-3 bg-white/50 group-hover:bg-white/80 mt-2 animate-pulse transition-colors duration-900"></div>
-          </div>
+          <div className="w-1 h-3 bg-white/50 group-hover:bg-white/80 mt-2 animate-pulse transition-colors duration-900"></div>
         </div>
       </section>
 
@@ -135,9 +133,8 @@ export default function LandingPage() {
 
               <div className="space-y-6 text-lg md:text-xl text-gray-300 leading-relaxed">
                 <p>
-                  531 Dev is where ideas come to life after the clock hits 5:31.
-                  A one-person lab for exploring software, experimenting with tech, and building what feels right.
-                  Not chasing trends. Just creating what’s cool.
+                  531 Dev is an independent development studio founded on creating software experiments, 
+                  passion projects, and creative tools that solve real problems.
                 </p>
               </div>
             </div>
